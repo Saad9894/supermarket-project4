@@ -1,10 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .hamburger-icon {
     display: none;
+}
+
+.log {
+    display: flex;
+    gap: 6px;
 }
 
 .nav3 {

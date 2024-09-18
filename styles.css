@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .nav-menu {
@@ -11,6 +12,10 @@
     width: 100%;
 }
 
+.log {
+    display: flex;
+    gap: 6px;
+}
 
 section {
     height: auto;
@@ -131,9 +136,11 @@ form button:hover {
 .hamburger-icon input[type="checkbox"] {
     appearance: none;
 }
+
 .navigation a.deals {
     color: rgb(231, 18, 18);
 }
+
 .navigation {
     display: flex;
     list-style: none;
@@ -961,6 +968,7 @@ body {
     background: black;
     border-radius: 43px;
 }
+
 .wrapper {
     display: flex;
 }
