@@ -1,0 +1,128 @@
+@media only screen and (min-width:992px) and (max-width:1300px) {
+    .one {
+        width: 70%;
+        grid-template-columns: 165px 165px 165px 165px;
+        gap: 2%;
+    }
+    .visit {
+        grid-template-columns: 192px 192px 192px 192px 192px;
+    }
+
+    .area-one {
+        width: 22%;
+    }
+    .item1 img {
+        width: 161px;
+    }
+    
+    .cardss {
+        border: 1px solid black;
+        width: 100%;
+        height: auto;
+    }
+
+    .letter {
+        height: 16vw;
+    }
+
+    .butns {
+        width: 56%;
+    }
+
+
+}
+
+@media only screen and (min-width:769px) and (max-width:991px) {
+    .one {
+        width: 82%;
+        grid-template-columns: 185px 185px 185px;
+    }
+
+    h1.cell {
+        height: 100px;
+    }
+    .area-one {
+        width: 24%;
+    }
+    .visit {
+        grid-template-columns: 183px 179px 200px 200px;
+    }
+    .butns {
+        width: 47%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .one {
+        width: 69%;
+        grid-template-columns: 185px 185px;
+    }
+
+    .area-one {
+        width: 27%;
+    }
+
+    h1.cell {
+        height: 93px;
+    }
+
+    .visit {
+        grid-template-columns: 190px 190px 190px;
+    }
+
+
+}
+
+@media only screen and (min-width:300px) and (max-width:575px) {
+
+
+    .visit {
+        grid-template-columns: 190px;
+        justify-content: center;
+    }
+
+    .one {
+        width: 72%;
+        grid-template-columns: 214px;
+        justify-content: center;
+    }
+
+    .item1 img {
+        width: 150px;
+    }
+
+    h1.cell {
+        font-size: 37px;
+        height: 89px;
+    }
+    .area-one {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: auto;
+        font-size: 21px;
+    }
+    footer {
+        transform: translate(0px, 17%);
+    }
+    .best {
+        flex-wrap: wrap;
+    }
+
+    .payment {
+        height: auto;
+    }
+
+    .visa {
+        flex-wrap: wrap;
+    }
+    .nav1{
+        display: none;
+    }
+    .nav2{
+        height: 69px;
+    }
+    .icon{
+    font-size: 20px;    
+    }
+}
