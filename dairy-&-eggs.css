@@ -91,9 +91,9 @@ section {
 
     .nav3:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
         margin-top: 1rem;
-        height: 661px;
+        height: 511px;
         width: 89%;
-        font-size: 34px;
+        font-size: 22px;
     }
 
     .nav3:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {

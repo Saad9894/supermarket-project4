@@ -112,4 +112,10 @@
     .nav2 {
         height: 72px;
     }
+    .search {
+        font-size: 25px;
+    }
+    .icon{
+        font-size: 12px;
+    }
 }

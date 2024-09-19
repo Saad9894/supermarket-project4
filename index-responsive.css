@@ -40,6 +40,7 @@
     .payment {
         width: 89%;
     }
+
     .visit {
         width: 93%;
         grid-template-columns: 190px 190px 190px 190px 189px;
@@ -513,7 +514,17 @@
     }
 
     .italy {
-        font-size: 12px;
+        text-align: center;
+        font-size: 9px;
+        top: 0px;
+    }
+
+    .corn img {
+        height: 149vw;
+    }
+
+    .butn-dark a {
+        font-size: 13px;
     }
 
     .wrapper {
@@ -525,8 +536,8 @@
     }
 
     .butn-dark {
-        width: 100%;
-        height: 32px;
+        width: 78%;
+        height: 23px;
     }
 
     .great {
@@ -535,6 +546,15 @@
 
     h1.stays {
         width: 95%;
+    }
+
+    .search {
+        font-size: 22px;
+        width: 35%;
+    }
+
+    .greats {
+        font-size: 25px;
     }
 
     .time {
@@ -549,9 +569,18 @@
         height: 49vw;
     }
 
+    .button {
+        height: 34px;
+    }
+
     .butns {
-        width: 48%;
-        height: 5vw;
+        width: 49%;
+        height: 6vw;
+    }
+
+    .butn1 {
+        width: 49%;
+        height: 9vw;
     }
 
     .corn img {
@@ -562,11 +591,19 @@
         grid-template-columns: 190px;
         justify-content: center;
     }
+
     .butn2 {
         width: 29%;
     }
+
     .visa {
         flex-wrap: wrap;
+    }
+    .search {
+        font-size: 25px;
+    }
+    .icon{
+        font-size: 12px;
     }
 
 }

@@ -148,6 +148,9 @@
         height: 78px;
     }
     .icon{
-        font-size: 20px;
+        font-size: 12px;
+    }
+    .search {
+        font-size: 25px;
     }
 }
