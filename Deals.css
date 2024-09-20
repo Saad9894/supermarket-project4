@@ -53,6 +53,7 @@
 
     .nav3 {
         display: block;
+        padding: 17px 2px;
     }
 
     i.fa-solid.fa-x {
@@ -288,7 +289,7 @@ footer {
     border-bottom: 2px solid rgba(216, 206, 188, 0.699);
     border-width: 1px;
     color: #fff;
-    grid-template-columns: 260px 260px 260px 260px 250px;
+    grid-template-columns: 240px 240px 240px 240px 240px;
     display: grid;
     padding: 3%;
     line-height: 2.1;

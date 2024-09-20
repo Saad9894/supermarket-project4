@@ -444,6 +444,7 @@
     .letter {
         height: 159px;
         line-height: 14px;
+        font-size: 11px;
     }
 
     .app {
@@ -589,7 +590,7 @@
     }
 
     .butn2 {
-        width: 29%;
+        width: 38%;
     }
 
     .visa {

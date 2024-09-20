@@ -95,7 +95,6 @@ form button:hover {
 
 .nav3 {
     background-color: rgb(197, 184, 194);
-    padding: 10px 20px;
 }
 
 .hamburger-icon input[type="checkbox"] {
@@ -121,6 +120,7 @@ form button:hover {
 @media screen and (max-width: 750px) {
     .nav3 {
         display: block;
+        padding: 17px 2px;
     }
 
     i.fa-solid.fa-x {
@@ -196,7 +196,7 @@ form button:hover {
 
 .area-one {
     text-indent: 42px;
-    width: 18%;
+    width: 14%;
     font-size: 17px;
 }
 
@@ -275,7 +275,7 @@ input.add {
 .butns a {
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 footer {
@@ -287,7 +287,7 @@ footer {
     border-bottom: 2px solid rgba(216, 206, 188, 0.699);
     border-width: 1px;
     color: #fff;
-    grid-template-columns: 260px 260px 260px 260px 260px;
+    grid-template-columns: 240px 240px 240px 240px 240px;
     display: grid;
     padding: 3%;
     line-height: 2.1;

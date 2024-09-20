@@ -134,7 +134,7 @@
         height: 9vw;
     }
     .area-one {
-        display: flex;
+        display:none;
     }
 
     .best {

@@ -94,11 +94,7 @@
         height: 89px;
     }
     .area-one {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        width: auto;
-        font-size: 21px;
+        display: none;
     }
 
     .best {
