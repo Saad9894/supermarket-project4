@@ -31,7 +31,7 @@ section {
 }
 
 .list {
-    width: 14%;
+    width: 211px;
 }
 
 .nav2 {
@@ -81,13 +81,6 @@ form button:hover {
     display: none;
 }
 
-.nav3 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px 20px;
-}
-
 .hamburger-icon {
     border: none;
     background-color: transparent;
@@ -102,6 +95,7 @@ form button:hover {
 
 .nav3 {
     background-color: rgb(197, 184, 194);
+    padding: 10px 20px;
 }
 
 .hamburger-icon input[type="checkbox"] {
@@ -210,10 +204,9 @@ form button:hover {
     color: #0f0f0fce;
 }
 
-
 .one {
     display: grid;
-    width: 96%;
+    width: 80%;
     grid-template-columns: 190px 190px 190px 190px 190px;
     margin: auto;
     gap: 3%;
@@ -248,6 +241,7 @@ form button:hover {
 input.add {
     height: 30px;
     width: 92%;
+    text-indent: 6px;
 }
 
 .button {
@@ -270,7 +264,7 @@ input.add {
 .butns {
     background-color: #e71818;
     border-radius: 20px;
-    width: 46%;
+    width: 47%;
     height: 29px;
     margin: 2%;
     display: flex;
@@ -281,7 +275,7 @@ input.add {
 .butns a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 footer {

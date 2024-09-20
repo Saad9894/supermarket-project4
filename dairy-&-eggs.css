@@ -20,10 +20,6 @@ section {
 }
 
 .nav3 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px 20px;
     background-color: rgb(206, 106, 184);
 }
 
@@ -121,7 +117,7 @@ section {
 }
 
 .list {
-    width: 14%;
+    width: 211px;
 }
 
 .nav2 {
@@ -212,11 +208,10 @@ form button:hover {
 
 .one {
     display: grid;
-    width: 79%;
-    grid-template-columns: 200px 200px 200px 200px 200px;
+    width: 80%;
+    grid-template-columns: 190px 190px 190px 190px 190px;
     margin: auto;
-    gap: 1%;
-
+    gap: 3%;
 }
 
 .letter {
@@ -265,12 +260,10 @@ input.add {
     font-size: 16px;
 }
 
-
-
 .butns {
     background-color: #e71818;
     border-radius: 20px;
-    width: 45%;
+    width: 46%;
     height: 2vw;
     margin: 2%;
     display: flex;
@@ -281,7 +274,7 @@ input.add {
 .butns a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 footer {

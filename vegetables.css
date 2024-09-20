@@ -9,7 +9,6 @@
 }
 
 .nav3 {
-    padding: 10px 20px;
     background-color: rgb(197, 184, 194);
 }
 
@@ -114,7 +113,7 @@ section {
 }
 
 .list {
-    width: 14%;
+    width: 211px;
 }
 
 .nav2 {
@@ -206,16 +205,14 @@ form button:hover {
     color: #0f0f0fce;
 }
 
-
 .one {
     display: grid;
-    width: 96%;
+    width: 78%;
     grid-template-columns: 190px 190px 190px 190px 190px;
     margin: auto;
     /* height: 34vw; */
     gap: 3%;
 }
-
 
 .letter {
     display: grid;

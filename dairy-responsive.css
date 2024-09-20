@@ -28,6 +28,9 @@
     .butns {
         width: 56%;
     }
+    .butns a {
+        font-size: 14px;
+    }
 
 
 }
@@ -42,10 +45,7 @@
         height: 100px;
     }
     .area-one {
-        font-size: 22px;
         width: 24%;
-        height: 20px;
-        line-height: 2;
     }
     .visit {
         grid-template-columns: 183px 179px 200px 200px;
@@ -135,10 +135,6 @@
     }
     .area-one {
         display: flex;
-        flex-direction: column;
-        margin: auto;
-        width: auto;
-        font-size: 21px;
     }
 
     .best {
