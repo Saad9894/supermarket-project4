@@ -110,11 +110,11 @@
     .visit {
         grid-template-columns: 190px;
         justify-content: center;
-        
+
     }
 
     .one {
-        width: 72%;
+        width: 73%;
         grid-template-columns: 214px;
         justify-content: center;
     }
