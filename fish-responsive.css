@@ -69,6 +69,10 @@
     .visit {
         grid-template-columns: 190px 190px 190px;
     }
+    form input[type="text"] {
+        height: 4vw;
+    }
+
 
 
 }
@@ -123,5 +127,8 @@
     }
     .search {
         font-size: 25px;
+    }
+    form input[type="text"] {
+        height: 5vw;
     }
 }

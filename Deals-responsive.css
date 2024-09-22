@@ -29,6 +29,7 @@
         gap: 1%;
         column-gap: 5%
     }
+
     h1.cell {
         margin: 3%;
     }
@@ -95,6 +96,11 @@
     footer {
         transform: translate(0px, 32%);
     }
+
+    form input[type="text"] {
+        height: 4vw;
+    }
+
 }
 
 @media only screen and (min-width:300px) and (max-width:575px) {
@@ -173,5 +179,9 @@
 
     .search {
         font-size: 25px;
+    }
+
+    form input[type="text"] {
+        height: 5vw;
     }
 }

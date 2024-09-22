@@ -4,9 +4,11 @@
         width: 84%;
         grid-template-columns: 180px 180px 180px 180px;
     }
+
     .item1 img {
         width: 146px;
     }
+
     .letter {
         height: 19vw;
     }
@@ -14,6 +16,7 @@
     .cardss {
         height: auto;
     }
+
     .visit {
         grid-template-columns: 192px 192px 192px 192px 192px;
     }
@@ -29,12 +32,14 @@
     h1.cell {
         height: 100px;
     }
+
     .area-one {
         /* font-size: 22px; */
         width: 24%;
         /* height: 20px; */
         /* line-height: 2; */
     }
+
     .visit {
         grid-template-columns: 183px 179px 200px 200px;
     }
@@ -53,12 +58,19 @@
     h1.cell {
         height: 93px;
     }
+
     .visit {
         grid-template-columns: 190px 190px 190px;
     }
+
     .cardss {
         height: 56vw;
     }
+
+    form input[type="text"] {
+        height: 4vw;
+    }
+
 
 }
 
@@ -84,10 +96,12 @@
         font-size: 37px;
         height: 89px;
     }
+
     .area-one {
         display: none;
     }
-    .icon{
+
+    .icon {
         font-size: 20px;
     }
 
@@ -102,16 +116,24 @@
     .visa {
         flex-wrap: wrap;
     }
-    .nav1{
+
+    .nav1 {
         display: none;
     }
+
     .nav2 {
         height: 72px;
     }
+
     .search {
         font-size: 25px;
     }
-    .icon{
+
+    .icon {
         font-size: 12px;
+    }
+
+    form input[type="text"] {
+        height: 5vw;
     }
 }

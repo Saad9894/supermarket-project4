@@ -357,6 +357,10 @@
         font-size: 19px;
     }
 
+    form input[type="text"] {
+        height: 4vw;
+    }
+
     .great2 {
         bottom: 0;
         font-size: 16px;
@@ -596,11 +600,16 @@
     .visa {
         flex-wrap: wrap;
     }
+
     .search {
         font-size: 25px;
     }
-    .icon{
+
+    .icon {
         font-size: 12px;
     }
 
+    form input[type="text"] {
+        height: 5vw;
+    }
 }

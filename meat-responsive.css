@@ -76,6 +76,9 @@
     .butns {
         width: 56%;
     }
+    form input[type="text"] {
+        height: 4vw;
+    }
 
 
 }
@@ -129,5 +132,8 @@
     }
     .nav2 {
         height: 69px;
+    }
+    form input[type="text"] {
+        height: 5vw;
     }
 }
