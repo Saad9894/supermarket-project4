@@ -386,12 +386,8 @@ img.slide1 {
 
 h1.stay {
     margin: auto;
-    padding: auto;
     width: 81%;
-    align-items: center;
-    text-align: center;
     display: flex;
-    padding: auto;
     padding-top: 3%;
 }
 
@@ -929,13 +925,13 @@ img.veg {
 }
 
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .body {
     width: 400%;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .start {
