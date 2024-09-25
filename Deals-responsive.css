@@ -43,7 +43,7 @@
     }
 
     .cardss {
-        height: 39vw;
+        height: 47vw;
     }
 
     .visit {
@@ -99,6 +99,10 @@
 
     form input[type="text"] {
         height: 4vw;
+    }
+    .find {
+        height: 31px;
+        width: 83%;
     }
 
 }
@@ -183,5 +187,13 @@
 
     form input[type="text"] {
         height: 5vw;
+    }
+
+    .find {
+        height: 31px;
+        width: 83%;
+    }
+    .div {
+        width: 32%;
     }
 }

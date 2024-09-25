@@ -4,6 +4,7 @@
         grid-template-columns: 165px 165px 165px 165px;
         gap: 2%;
     }
+
     .visit {
         grid-template-columns: 192px 192px 192px 192px 192px;
     }
@@ -11,10 +12,11 @@
     .area-one {
         width: 22%;
     }
+
     .item1 img {
         width: 161px;
     }
-    
+
     .cardss {
         border: 1px solid black;
         width: 100%;
@@ -41,12 +43,15 @@
     h1.cell {
         height: 100px;
     }
+
     .area-one {
         width: 24%;
     }
+
     .visit {
         grid-template-columns: 183px 179px 200px 200px;
     }
+
     .butns {
         width: 52%;
     }
@@ -69,8 +74,14 @@
     .visit {
         grid-template-columns: 190px 190px 190px;
     }
+
     form input[type="text"] {
         height: 4vw;
+    }
+
+    .find {
+        height: 31px;
+        width: 83%;
     }
 
 
@@ -99,12 +110,15 @@
         font-size: 37px;
         height: 89px;
     }
+
     .area-one {
         display: none;
     }
+
     footer {
         transform: translate(0px, 17%);
     }
+
     .best {
         flex-wrap: wrap;
     }
@@ -116,19 +130,29 @@
     .visa {
         flex-wrap: wrap;
     }
-    .nav1{
+
+    .nav1 {
         display: none;
     }
-    .nav2{
+
+    .nav2 {
         height: 69px;
     }
-    .icon{
-    font-size: 12px;    
+
+    .icon {
+        font-size: 12px;
     }
+
     .search {
         font-size: 25px;
     }
+
     form input[type="text"] {
         height: 5vw;
+    }
+
+    .find {
+        height: 31px;
+        width: 83%;
     }
 }

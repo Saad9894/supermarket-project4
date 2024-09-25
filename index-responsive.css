@@ -79,7 +79,7 @@
     }
 
     .list {
-        width: 25%;
+        width: 30%;
     }
 
     .card:hover .content {
@@ -109,7 +109,6 @@
         line-height: 31px;
     }
 
-
     .door {
         width: 16%;
         height: 26vw;
@@ -121,11 +120,6 @@
         grid-template-columns: 2fr 2fr 2fr;
         height: auto;
     }
-
-    /* 
-    .popular {
-        height: 28.2vw;
-    } */
 
     img.slide1 {
         height: 62vw;
@@ -154,11 +148,8 @@
     .images {
         height: auto;
         width: 103%;
-        /* justify-content: center; */
         grid-template-columns: 240px 240px 239px;
         display: inline-grid;
-        /* padding: 4%; */
-        /* margin: auto; */
         text-align: center;
     }
 
@@ -369,6 +360,11 @@
 
     p.para {
         font-size: 14px;
+    }
+
+    .find {
+        height: 31px;
+        width: 83%;
     }
 }
 
@@ -611,5 +607,14 @@
 
     form input[type="text"] {
         height: 5vw;
+    }
+
+    .find {
+        height: 31px;
+        width: 83%;
+    }
+
+    .nav1 {
+        display: none;
     }
 }

@@ -21,6 +21,11 @@
         grid-template-columns: 192px 192px 192px 192px 192px;
     }
 
+    .area-one {
+        text-indent: 42px;
+        width: 20%;
+    }
+
 }
 
 @media only screen and (min-width:769px) and (max-width:991px) {
@@ -41,7 +46,7 @@
     }
 
     .visit {
-        grid-template-columns: 183px 179px 200px 200px;
+        grid-template-columns: 180px 180px 180px 180px;
     }
 }
 
@@ -52,7 +57,7 @@
     }
 
     .area-one {
-        width: 27%;
+        width: 29%;
     }
 
     h1.cell {
@@ -64,13 +69,17 @@
     }
 
     .cardss {
-        height: 56vw;
+        height: 67vw;
     }
 
     form input[type="text"] {
         height: 4vw;
     }
 
+    .find {
+        height: 31px;
+        width: 83%;
+    }
 
 }
 
@@ -135,5 +144,10 @@
 
     form input[type="text"] {
         height: 5vw;
+    }
+
+    .find {
+        height: 31px;
+        width: 83%;
     }
 }

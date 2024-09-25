@@ -47,6 +47,7 @@
     .area-one {
         width: 24%;
     }
+
     .butns {
         width: 56%;
     }
@@ -63,7 +64,7 @@
     }
 
     .area-one {
-        width: 27%;
+        width: 30%;
     }
 
     h1.cell {
@@ -73,11 +74,18 @@
     .visit {
         grid-template-columns: 190px 190px 190px;
     }
+
     .butns {
         width: 56%;
     }
+
     form input[type="text"] {
         height: 4vw;
+    }
+
+    .find {
+        height: 31px;
+        width: 83%;
     }
 
 
@@ -107,7 +115,7 @@
     }
 
     .area-one {
-        display:none;
+        display: none;
     }
 
     .best {
@@ -121,19 +129,29 @@
     .visa {
         flex-wrap: wrap;
     }
-    .nav1{
+
+    .nav1 {
         display: none;
     }
+
     .search {
         font-size: 25px;
     }
-    .icon{
+
+    .icon {
         font-size: 12px;
     }
+
     .nav2 {
         height: 69px;
     }
+
     form input[type="text"] {
         height: 5vw;
+    }
+
+    .find {
+        height: 31px;
+        width: 83%;
     }
 }

@@ -85,7 +85,7 @@
     }
 
     .area-one {
-        width: 27%;
+        width: 30%;
     }
 
     h1.cell {
@@ -120,6 +120,10 @@
         height: 4vw;
     }
 
+    .find {
+        height: 31px;
+        width: 83%;
+    }
 }
 
 @media only screen and (min-width:300px) and (max-width:574px) {
@@ -202,5 +206,9 @@
 
     form input[type="text"] {
         height: 5vw;
+    }
+    .find {
+        height: 31px;
+        width: 83%;
     }
 }
