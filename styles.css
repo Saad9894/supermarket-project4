@@ -233,8 +233,27 @@ img.slide1 {
     display: flex;
     justify-content: center;
 }
+.butn-dark1 {
+    background-color: #e71818;
+    border-radius: 20px;
+    width: 40%;
+    height: 40px;
+    transform: translate(0px, 3px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
 .butn-dark a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.butn-dark1 a {
     text-decoration: none;
     color: white;
     font-size: 20px;

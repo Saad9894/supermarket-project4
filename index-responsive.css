@@ -292,7 +292,7 @@
     }
 
     .searchs {
-        width: 171%;
+        width: 121%;
     }
 
     .text-box3 {
@@ -529,6 +529,7 @@
     }
 
     .searchs {
+        flex-direction: column;
         width: 171%;
     }
 
@@ -607,6 +608,9 @@
 
     form input[type="text"] {
         height: 5vw;
+    }
+    input.boxes {
+        width: 55%;
     }
 
     .find {
