@@ -51,7 +51,6 @@
 @media screen and (max-width: 750px) {
 
     .nav3 {
-        /* height: 9px; */
         display: block;
         padding: 20px 10px;
     }
@@ -78,7 +77,6 @@
 
     .nav3:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
         margin: -2%;
-        /* margin-top: 1rem; */
         height: auto;
         width: 104%;
         background: white;
@@ -139,39 +137,6 @@ a.clover {
     gap: 20px;
 }
 
-.search-container {
-    width: 34%;
-}
-
-form input[type="text"] {
-    height: 2vw;
-    background: transparent;
-    width: 100%;
-    border: 3px solid rgba(255, 255, 255, 0.705);
-    text-align: center;
-    border-radius: 17px;
-}
-
-form {
-    display: flex;
-}
-
-form button {
-    border-radius: 9px;
-    background: transparent;
-    width: 9%;
-    border: 2px solid rgba(255, 255, 255, 0.034);
-}
-
-.search button i {
-    font-size: 18px;
-}
-
-form button:hover {
-    background: rgb(13, 14, 13);
-    color: rgb(236, 222, 222);
-}
-
 .navigation a.deals {
     color: rgb(231, 18, 18);
 }
@@ -196,7 +161,31 @@ form button:hover {
     border-bottom: 1px solid rgb(15, 15, 15);
 
 }
+.div {
+    position: relative;
+}
 
+.fa-magnifying-glass {
+    position: absolute;
+    top: 30%;
+    font-size: 17px;
+    left: 3%;
+    color: #0c0c0cbd;
+}
+
+.find {
+    height: 40px;
+    width: 530px;
+    color: #000;
+    border-color: #b3aeae6c;
+    box-shadow: 0 0 transparent, 0 0 transparent, inset 0 2px 4px 0 rgba(0,0,0,.05);
+    background-color: rgba(250, 250, 250);
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 60px;
+    outline: none;
+} 
 .add {
     border-bottom: 1px solid black;
     border-top: 1px solid black;
