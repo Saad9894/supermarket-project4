@@ -25,7 +25,8 @@ section {
 
 .nav1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 3%;
     background-color: #8c0000;
     height: 50px;
     align-items: center;
@@ -34,21 +35,31 @@ section {
 
 .list ul {
     display: flex;
-    gap: 5%;
+    justify-content: space-between;
     list-style: none;
 }
 
 .list {
-    width: 211px;
+    width: 250px;
 }
 
 .nav2 {
     background-color: #eb1414;
     display: flex;
     align-items: center;
-    height: 5vw;
+    height: 90px;
     justify-content: space-around;
     font-size: 28px;
+}
+
+a.clover {
+    color: #fff;
+}
+
+.icon {
+    color: #fff;
+    display: flex;
+    gap: 20px;
 }
 
 a {
@@ -117,7 +128,7 @@ form button:hover {
 }
 
 .nav3 {
-    background-color: rgb(197, 184, 194);
+    height: 50px;
 }
 
 .hamburger-icon {
@@ -145,22 +156,25 @@ form button:hover {
     list-style: none;
     width: 100%;
     color: #000;
-    height: 5vw;
+    height: 50px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 3%;
     font-size: 20px;
 }
 
 .navigation a {
-    color: rgb(1, 1, 1)
+    color: rgb(31 26 26 / 58%);
+    font-size: 17px;
 }
 
 
 @media screen and (max-width: 750px) {
 
     .nav3 {
+        height: 9px;
         display: block;
-        padding: 17px 2px;
+        padding: 20px 10px;
     }
 
     .nav1 {
@@ -192,10 +206,12 @@ form button:hover {
     }
 
     .nav3:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
-        margin-top: 1rem;
-        height: 511px;
-        width: 89%;
-        font-size: 22px;
+        margin: -2%;
+        /* margin-top: 1rem; */
+        height: 593px;
+        width: 104%;
+        background: white;
+        font-size: 52px;
     }
 
     .nav3:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
@@ -275,17 +291,17 @@ img.slide1 {
 
 .banner1 {
     animation: slide1 15s linear infinite;
-    height: 15vw;
+    height: 250px;
 }
 
 .banner2 {
     animation: slide2 15s linear infinite;
-    height: 15vw;
+    height: 250px;
 }
 
 .banner3 {
     animation: slide3 15s linear infinite;
-    height: 18vw;
+    height: 250px;
 }
 
 @keyframes slide1 {
@@ -371,7 +387,7 @@ img.slide1 {
     background-color: #e71818;
     border-radius: 20px;
     width: 45%;
-    height: 2vw;
+    height: 30px;
     margin: 2%;
     display: flex;
     justify-content: center;
@@ -381,14 +397,12 @@ img.slide1 {
 .butns a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 h1.stay {
-    margin: auto;
-    width: 81%;
-    display: flex;
     padding-top: 3%;
+    text-align: center;
 }
 
 h1.stays {
@@ -549,13 +563,13 @@ p.para {
 
 .categories {
     width: 81%;
-    height: 36vw;
-    border-right: 2px solid rgba(29, 27, 27, 0.158);
+    /* height: 36vw; */
+    /* border-right: 2px solid rgba(29, 27, 27, 0.158); */
     display: grid;
-    align-items: center;
+    /* align-items: center; */
     margin: auto;
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
     grid-template-columns: 2fr 2fr 2fr 2fr;
     box-sizing: 100px;
     border: 2px solid rgba(29, 27, 27, 0.158);
@@ -563,7 +577,7 @@ p.para {
 
 .popular {
 
-    height: 17.9vw;
+    /* height: 17.9vw; */
     border-right: 1px solid rgba(29, 27, 27, 0.158);
     width: 100%;
     border-bottom: 1px solid rgba(27, 27, 27, 0.158);
@@ -678,18 +692,13 @@ img.veg {
     width: 100%;
 }
 
-.cardss {
-    border: 1px solid black;
-    width: 50%;
-    height: 30vw;
-}
-
 .card {
     position: relative;
     background: transparent;
-    width: 242px;
-    height: 300px;
-    border: none;
+    /* width: 242px; */
+    margin: auto;
+    height: 400px;
+    /* border: none; */
 }
 
 .section3,
@@ -701,7 +710,7 @@ img.veg {
 }
 
 .card:hover {
-    width: 300px;
+    width: 100px;
 }
 
 #picture img {
@@ -727,9 +736,6 @@ img.veg {
     width: 89%;
 }
 
-#pict2 img {
-    width: 89%;
-}
 
 .card .container-image {
     position: absolute;
@@ -753,7 +759,7 @@ img.veg {
     transition-delay: 0s, .6s;
 }
 
-.card .container-image .image-circle {
+/* .card .container-image .image-circle {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -764,7 +770,7 @@ img.veg {
     filter: drop-shadow(2px 2px 2px #1818188a);
     transition: all .3s ease-in-out;
     transition-delay: .4s;
-}
+} */
 
 
 .card:hover .container-image .image-circle {
@@ -794,13 +800,17 @@ img.veg {
 }
 
 .card:hover .content {
-    width: 290px;
+    width: 200px;
     height: 190px;
     visibility: visible;
     transition-delay: .5s;
 }
 
-.card .content .detail {
+div#care img {
+    width: 139%;
+}
+
+/* .card .content .detail {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -815,7 +825,7 @@ img.veg {
     opacity: 100%;
     transition: 1s;
     transition-delay: .3s;
-}
+} */
 
 .card .content .detail span {
     margin-bottom: 5px;
@@ -835,9 +845,10 @@ img.veg {
     transition: .3s ease-in-out;
 }
 
+/* 
 .card .content .detail button:hover {
     background: #d39f63;
-}
+} */
 
 .card .content .product-image {
     position: relative;
@@ -872,10 +883,10 @@ img.veg {
     height: auto;
 }
 
-.fil-shoes1,
+/* .fil-shoes1,
 .fil-shoes2 {
     fill: #333333
-}
+} */
 
 .cardss {
     position: relative;
@@ -883,6 +894,10 @@ img.veg {
     cursor: pointer;
     font-weight: bold;
     font-size: 15px;
+    padding: 1%;
+    border: 1px solid black;
+    width: 50%;
+    /* height: 30vw; */
 }
 
 .cardss:hover {
@@ -985,10 +1000,6 @@ li.active {
 
 .section {
     width: 100%;
-    /* height: 100vh; */
-    z-index: 0;
-    transform: translateX(0);
-    transition: transform 0.7s ease-in-out;
 }
 
 .images {

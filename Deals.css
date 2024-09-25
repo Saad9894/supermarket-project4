@@ -25,10 +25,6 @@
     cursor: pointer;
 }
 
-.nav3 {
-    background-color: rgb(197, 184, 194);
-}
-
 .hamburger-icon input[type="checkbox"] {
     appearance: none;
 }
@@ -38,22 +34,26 @@
     list-style: none;
     width: 100%;
     color: #000;
-    height: 5vw;
+    height: 50px;
     align-items: center;
-    background-color: rgb(197, 184, 194);
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 3%;
     font-size: 20px;
 }
 
 .navigation a {
-    color: rgb(1, 1, 1)
+    color: rgb(31 26 26 / 58%);
+    font-size: 17px;
 }
+
+
 
 @media screen and (max-width: 750px) {
 
     .nav3 {
+        /* height: 9px; */
         display: block;
-        padding: 17px 2px;
+        padding: 20px 10px;
     }
 
     i.fa-solid.fa-x {
@@ -77,10 +77,12 @@
     }
 
     .nav3:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
-        margin-top: 1rem;
-        height: 511px;
-        width: 89%;
-        font-size: 22px;
+        margin: -2%;
+        /* margin-top: 1rem; */
+        height: auto;
+        width: 104%;
+        background: white;
+        font-size: 52px;
     }
 
     .nav3:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
@@ -100,7 +102,8 @@ section {
 
 .nav1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 3%;
     background-color: #8c0000;
     height: 50px;
     align-items: center;
@@ -109,23 +112,32 @@ section {
 
 .list ul {
     display: flex;
-    gap: 5%;
+    justify-content: space-between;
     list-style: none;
 }
 
 .list {
-    width: 211px;
+    width: 250px;
 }
 
 .nav2 {
     background-color: #eb1414;
     display: flex;
     align-items: center;
-    height: 5vw;
+    height: 90px;
     justify-content: space-around;
     font-size: 28px;
 }
 
+a.clover {
+    color: #fff;
+}
+
+.icon {
+    color: #fff;
+    display: flex;
+    gap: 20px;
+}
 
 .search-container {
     width: 34%;

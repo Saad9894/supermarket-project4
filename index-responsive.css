@@ -20,9 +20,9 @@
         width: 76%;
     }
 
-    .popular {
+    /* .popular {
         height: 25vw;
-    }
+    } */
 
     .italy {
         font-size: 33px;
@@ -99,20 +99,16 @@
         grid-template-columns: 183px 179px 200px 200px;
     }
 
-    .images {
-        height: 40vw;
-        width: 89%;
-    }
-
     .cardss {
-        height: 38vw;
+        height: 41vw;
         width: 88%;
     }
 
     .letter {
-        height: 159px;
-        line-height: 14px;
+        height: 177px;
+        line-height: 31px;
     }
+
 
     .door {
         width: 16%;
@@ -126,9 +122,10 @@
         height: auto;
     }
 
+    /* 
     .popular {
         height: 28.2vw;
-    }
+    } */
 
     img.slide1 {
         height: 62vw;
@@ -155,15 +152,18 @@
     }
 
     .images {
-        height: 85vw;
-        width: 95%;
-        justify-content: center;
-        grid-template-columns: 1fr 1fr 1fr;
+        height: auto;
+        width: 103%;
+        /* justify-content: center; */
+        grid-template-columns: 240px 240px 239px;
         display: inline-grid;
+        /* padding: 4%; */
+        /* margin: auto; */
+        text-align: center;
     }
 
     .wrapper {
-        margin-left: 2%;
+        margin: auto;
     }
 
     .text-box2 {
@@ -210,7 +210,7 @@
 
     .deliver {
         gap: 18px;
-        grid-template-columns: 3fr 3fr;
+        grid-template-columns: 280px 280px;
     }
 
     .images {
@@ -293,7 +293,7 @@
     }
 
     .wrapper {
-        margin-left: 2%;
+        margin: auto;
     }
 
     .text-box2 {
