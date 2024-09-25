@@ -243,9 +243,9 @@ a.clover {
     gap: 7%;
 }
 
-
 input.add {
     height: 30px;
+    text-indent: 12px;
     width: 92%;
 }
 
@@ -255,7 +255,6 @@ input.add {
     width: 78%;
     height: 31px;
     text-align: center;
-    /* margin: 1% 5%; */
     display: flex;
     justify-content: center;
     align-items: center;

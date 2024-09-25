@@ -238,9 +238,9 @@ a.clover {
     gap: 7%;
 }
 
-
 input.add {
     height: 30px;
+    text-indent: 12px;
     width: 92%;
 }
 
