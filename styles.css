@@ -157,10 +157,9 @@ a {
 }
 
 .navigation a {
-    color: rgb(31 26 26 / 58%);
+    color: #0c0c0c;
     font-size: 17px;
 }
-
 
 @media screen and (max-width: 750px) {
 
