@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.log {
+    display: flex;
+    gap: 6px;
+}
+
+.hamburger-icon {
+    border: none;
+    background-color: transparent;
+}
+
+.hamburger-icon .fa-bars,
+.hamburger-icon .fa-x {
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hamburger-icon input[type="checkbox"] {
+    appearance: none;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    color: #000;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    font-size: 20px;
+}
+
+.navigation a {
+    color: #0c0c0c;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 750px) {
+
+    .nav3 {
+        display: block;
+        padding: 20px 10px;
+    }
+
+    i.fa-solid.fa-x {
+        display: none;
+    }
+
+    .navigation {
+        height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    .fa-x {
+        display: none;
+    }
+
+    .nav3:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
+        margin: -2%;
+        height: auto;
+        width: 104%;
+        background: white;
+        font-size: 52px;
+    }
+
+    .nav3:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+        display: none;
+    }
+
+    .nav3:has(.hamburger-icon input[type="checkbox"]:checked) .fa-x {
+        display: inline-block;
+    }
+}
+
+section {
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    background-color: #8c0000;
+    height: 50px;
+    align-items: center;
+    color: #fff;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.list {
+    width: 250px;
+}
+
+.nav2 {
+    background-color: #eb1414;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    justify-content: space-around;
+    font-size: 28px;
+}
+
+a.clover {
+    color: #fff;
+}
+
+.icon {
+    color: #fff;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a.deals {
+    color: rgb(231, 18, 18);
+}
+
+.cardss {
+    border: 1px solid black;
+    width: 100%;
+    height: 30vw;
+}
+
+
+
+.best {
+    display: flex;
+}
+
+.cell {
+    height: 9vw;
+    text-align: center;
+    font-size: 63px;
+}
+
+.area-one h1 {
+    border-bottom: 1px solid rgb(15, 15, 15);
+
+}
+
+.div {
+    position: relative;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    top: 30%;
+    font-size: 17px;
+    left: 3%;
+    color: #0c0c0cbd;
+}
+
+.find {
+    height: 40px;
+    width: 530px;
+    color: #000;
+    border-color: #b3aeae6c;
+    box-shadow: 0 0 transparent, 0 0 transparent, inset 0 2px 4px 0 rgba(0, 0, 0, .05);
+    background-color: rgba(250, 250, 250);
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 60px;
+    outline: none;
+}
+
+.add {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    line-height: 2;
+    height: 4vw;
+}
+
+.search h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.area-one {
+    text-indent: 42px;
+    width: 14%;
+    font-size: 17px;
+}
+
+.content {
+    color: #0f0f0fce;
+}
+
+.one {
+    display: grid;
+    width: 83%;
+    grid-template-columns: 190px 190px 190px 190px 190px;
+    margin: auto;
+    gap: 3%;
+
+}
+
+.letter {
+    display: grid;
+    margin: 2%;
+    font-size: 20px;
+    height: 13vw;
+}
+
+.item1 img {
+    width: 100%;
+}
+
+.dollar {
+    color: red;
+    font-size: 24px;
+}
+
+.dollar1 {
+    color: red;
+    display: flex;
+    font-size: 24px;
+    gap: 7%;
+}
+
+input.add {
+    height: 30px;
+    text-indent: 12px;
+    width: 92%;
+}
+
+.button {
+    background-color: #0e0d0d;
+    border-radius: 20px;
+    width: 78%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.butns {
+    background-color: #e71818;
+    border-radius: 20px;
+    width: 45%;
+    height: 2vw;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butns a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #eb1414;
+    transform: translate(0px, 27%);
+
+}
+
+.visit {
+    border-bottom: 2px solid rgba(216, 206, 188, 0.699);
+    border-width: 1px;
+    color: #fff;
+    grid-template-columns: 240px 240px 240px 240px 240px;
+    display: grid;
+    padding: 3%;
+    line-height: 2.1;
+}
+
+.icons {
+    font-size: 23px;
+    line-height: 6;
+    height: 100px;
+}
+
+.payment {
+    width: 89%;
+    padding: 5%;
+    line-height: 2;
+}
+
+.hi {
+    justify-content: center;
+    display: flex;
+    gap: 3%;
+    align-items: center;
+}
+
+.terms {
+    text-align: center;
+}
+
+.hi p a {
+    color: #fff;
+}
+
+.visa {
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+
+.power {
+    text-align: center;
+    height: 2vw;
+    font-size: 18px;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #423434;
+}
+
+
+.content1 {
+    display: none;
+    position: absolute;
+    width: 10pc;
+    gap: 5%;
+    cursor: pointer;
+    font-size: 2px;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.dropdown1:hover .content1 {
+    display: flex;
+}
+
+.first {
+    font-size: 20px;
+}
+
+.lips {
+    color: #ee1d6b;
+}
+
+.cardss {
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 0.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+}
+
+.card-button {
+ transform: translate(-50%, 125%);
+ width: 60%;
+ border-radius: 1rem;
+ border: none;
+ background-color: #008bf8;
+ color: #fff;
+ font-size: 1rem;
+ padding: .5rem 1rem;
+ position: absolute;
+ left: 50%;
+ bottom: 0;
+ opacity: 0;
+ transition: 0.3s ease-out;
+}
+.cardss:hover {
+ border-color: #008bf8;
+ box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.cardss:hover .card-button {
+ transform: translate(-50%, 50%);
+ opacity: 1;
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="card-details">
+          <p class="text-title">Card title</p>
+          <p class="text-body">Here are the details of the card</p>
+        </div>
+        <button class="card-button">Add to Cart</button>
+      </div>
+
+
+
+
+
+    
+    <div class="one">
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal</span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic4.webp" alt="">
+            </div>
+            <div class="letter">
+                <p>Hand Cream</p>
+                <div class="dollar">$2.99</div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic5.webp" alt="">
+            </div>
+            <div class="letter">
+                <p>Herbal Tea 16 ct.</p>
+                <div class="dollar">$3.99
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic6.jpg" alt="">
+            </div>
+            <div class="letter">
+                <p>Strawberries-1lb</p>
+                <div class="dollar1">
+                    <s>$4.99</s>
+                    <p>$4.49</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic7.jpg" alt="">
+            </div>
+            <div class="letter">
+                <p>Hass Avocados,Ready-to Eat-1lb</p>
+                <div class="dollar1">
+                    <s>$2.99</s>
+                    <p>$2.69</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic8.jpg" alt="">
+            </div>
+            <div class="letter">
+                <p>Boneless Chicken Thighs-1lb</p>
+                <div class="dollar1">
+                    <s>$4.49</s>
+                    <p>$4.04</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic9.jpg" alt="">
+            </div>
+            <div class="letter">
+                <p>Tuna Steak Fillet-1lb</p>
+                <div class="dollar1">
+                    <s>$29.99</s>
+                    <p>$26.99</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic10.jpg" alt="">
+            </div>
+            <div class="letter">
+                <p>Cream Cheese Spread 8oz.</p>
+                <div class="dollar1">
+                    <s>$3.99</s>
+                    <p>$3.59</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic11.jpg" alt="">
+            </div>
+            <div class="letter">
+                <p>Thin Spaghetti 300 gr.</p>
+                <div class="dollar1">
+                    <s>$2.49</s>
+                    <p>$2.24</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic12.jpg" alt="">
+            </div>
+            <div class="letter">
+                <p>Oats and Honey Gronola Cereal 16 oz.</p>
+                <div class="dollar1">
+                    <s>$3.99</s>
+                    <p>$3.59</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic13.jpg" alt="">
+            </div>
+            <div class="letter">
+                <p>Decaffeinated Instant Coffee, Rich Aroma</p>
+                <div class="dollar1">
+                    <s>$8.99</s>
+                    <p>$8.09</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic14.jpg" alt="">
+            </div>
+            <div class="letter">
+                <p>Brown Ale Glass Bottle 16 oz.</p>
+                <div class="dollar1">
+                    <s>$8.99</s>
+                    <p>$8.59</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic15.jpg" alt="">
+            </div>
+            <div class="letter">
+                <p>Chinon Rose 750 ml.</p>
+                <div class="dollar1">
+                    <s>$14.99</s>
+                    <p>13.49</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic16.jpg" alt="">
+            </div>
+            <div class="letter">
+                <p>Milk-Based Powder Formula Iron 29oz.</p>
+                <div class="dollar1">
+                    <s>$8.99</s>
+                    <p>$8.09</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic17.webp" alt="">
+            </div>
+            <div class="letter">
+                <p>Shower Gel 350 ml.</p>
+                <div class="dollar1">
+                    <s>$2.99</s>
+                    <p>$2.69</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic18.webp" alt="">
+            </div>
+            <div class="letter">
+                <p>Whitening Toothpaste 4 oz.</p>
+                <div class="dollar1">
+                    <s>$2.99</s>
+                    <p>$2.69</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic19.webp" alt="">
+            </div>
+            <div class="letter">
+                <p>Toilet Paper, 100 sheets</p>
+                <div class="dollar1">
+                    <s>$6.49</s>
+                    <p>$5.84</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic20.webp" alt="">
+            </div>
+            <div class="letter">
+                <p>Everything Bagels , 6 ct.</p>
+                <div class="dollar1">
+                    <s>$3.99</s>
+                    <p>$3.59</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic21.webp" alt="">
+            </div>
+            <div class="letter">
+                <p>Everything Bagels , 6 ct.</p>
+                <div class="dollar1">
+                    <s>$3.99</s>
+                    <p>$3.59</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic22.webp" alt="">
+            </div>
+            <div class="letter">
+                <p>Everything Bagels , 6 ct.</p>
+                <div class="dollar1">
+                    <s>$3.99</s>
+                    <p>$3.59</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+        <div class="cardss">
+            <div class="butns">
+                <a href="#"><span>Best Deal <i class="ti-arrow-right"></i></span></a>
+            </div>
+            <div class="item1">
+                <img src="img/pic23.webp" alt="">
+            </div>
+            <div class="letter">
+                <p>Everything Bagels , 6 ct.</p>
+                <div class="dollar1">
+                    <s>$3.99</s>
+                    <p>$3.59</p>
+                </div>
+                <input class="add" type="number" max="10" min="1" Value="1" placeholder="">
+                
+            </div>
+            <button class="card-button">Add to Cart</button>
+        </div>
+    </div>
+</body>
+
+</html>
