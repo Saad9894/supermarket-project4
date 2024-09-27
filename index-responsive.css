@@ -41,6 +41,13 @@
         width: 89%;
     }
 
+    .images {
+        width: 89%;
+        justify-content: center;
+        /* grid-template-columns: 200px; */
+        /* display: inline-grid; */
+    }
+
     .visit {
         width: 93%;
         grid-template-columns: 190px 190px 190px 190px 189px;
@@ -61,9 +68,28 @@
     }
 
     .card {
-        /* width: 229px; */
-        /* height: 284px; */
         margin: auto;
+    }
+
+    .great2 {
+        font-size: 23px;
+    }
+
+    .letter {
+        line-height: 1.5;
+        font-size: 16px;
+        height: 177px;
+    }
+    .greats {
+        transform: translate(-50%, 43%);
+        height: 54%;
+    }
+    .button {
+        margin: 3%;
+    }
+
+    .limit {
+        display: none;
     }
 
     .box {
@@ -609,6 +635,7 @@
     form input[type="text"] {
         height: 5vw;
     }
+
     input.boxes {
         width: 55%;
     }

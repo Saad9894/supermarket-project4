@@ -97,7 +97,7 @@
     }
 
     footer {
-        transform: translate(0px, 35%);
+        transform: translate(0px, 48%);
     }
 
     form input[type="text"] {
@@ -119,7 +119,6 @@
     }
 
     .one {
-        width: 72%;
         grid-template-columns: 214px;
         justify-content: center;
         gap: 1%;
@@ -151,6 +150,7 @@
         border: 1px solid black;
         width: 100%;
         height:auto;
+        padding: 0%;
     }
 
     .letter {
@@ -159,7 +159,7 @@
     }
 
     footer {
-        transform: translate(0px, 74%);
+        transform: translate(0px, 100%);
     }
 
     .nav1 {
