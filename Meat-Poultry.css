@@ -298,6 +298,7 @@ footer {
     display: grid;
     padding: 3%;
     line-height: 2.1;
+justify-content: center;
 }
 
 .icons {

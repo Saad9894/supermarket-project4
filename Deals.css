@@ -294,6 +294,7 @@ footer {
 .visit {
     border-bottom: 2px solid rgba(216, 206, 188, 0.699);
     border-width: 1px;
+    justify-content: center;
     color: #fff;
     grid-template-columns: 240px 240px 240px 240px 240px;
     display: grid;

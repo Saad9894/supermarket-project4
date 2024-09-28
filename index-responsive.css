@@ -80,10 +80,12 @@
         font-size: 16px;
         height: 177px;
     }
+
     .greats {
         transform: translate(-50%, 43%);
         height: 54%;
     }
+
     .button {
         margin: 3%;
     }
@@ -629,7 +631,7 @@
     }
 
     .icon {
-        font-size: 12px;
+        display: none;
     }
 
     form input[type="text"] {
@@ -640,12 +642,26 @@
         width: 55%;
     }
 
+    .nav1 {
+        display: none;
+    }
+
+    i.fa-solid.fa-magnifying-glass {
+        left: 27px;
+
+    }
+
+    .nav2 {
+        justify-content: center;
+        height: 81px;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+
     .find {
         height: 31px;
         width: 83%;
-    }
-
-    .nav1 {
-        display: none;
+        padding-left: 39px;
     }
 }

@@ -295,6 +295,7 @@ footer {
     border-bottom: 2px solid rgba(216, 206, 188, 0.699);
     border-width: 1px;
     color: #fff;
+    justify-content: center;
     grid-template-columns: 240px 240px 240px 240px 240px;
     display: grid;
     padding: 3%;

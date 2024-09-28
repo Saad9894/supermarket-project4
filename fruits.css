@@ -297,6 +297,7 @@ footer {
     grid-template-columns: 240px 240px 240px 240px 240px;
     display: grid;
     padding: 3%;
+    justify-content: center;
     line-height: 2.1;
 }
 
