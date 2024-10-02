@@ -148,6 +148,8 @@ a.clover {
     transition: 0.5s ease-out;
     overflow: visible;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-button {
@@ -216,7 +218,7 @@ a.clover {
 
 .one {
     display: grid;
-    margin: auto;
+    margin: 2%;
     gap: 2%;
     column-gap: 4%;
     justify-content: center;
@@ -224,10 +226,17 @@ a.clover {
 }
 
 .letter {
-    display: grid;
     margin: 2%;
-    font-size: 20px;
-    height: 13vw;
+    font-size: 16px;
+    display: flex;
+    height: 140px;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.letter p {
+    flex: 1;
 }
 
 .item1 img {

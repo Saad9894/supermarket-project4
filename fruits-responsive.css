@@ -4,17 +4,12 @@
         column-gap: 8%;
     }
 
-    .letter {
-        height: 19vw;
-    }
 
     .cardss {
         height: auto;
     }
-
     .butns {
-        width: 62%;
-        height: 3vw;
+        width: 55%;
     }
 
     .visit {
@@ -44,12 +39,7 @@
     }
 
     .butns {
-        height: 18px;
-        width: 52%;
-    }
-
-    .letter {
-        height: 21vw;
+        width: 55%;
     }
 
     .cardss {
@@ -71,21 +61,12 @@
         column-gap: 15%;
     }
 
-    .butns {
-        height: 18px;
-        width: 52%;
-    }
-
     .cell {
         height: 14vw;
     }
 
     .cardss {
         height: auto;
-    }
-
-    .letter {
-        height: 27vw;
     }
 
     .button {
@@ -98,6 +79,10 @@
 
     .item1 img {
         width: 100%;
+    }
+
+    .butns {
+        width: 55%;
     }
 
     .visit {
@@ -135,7 +120,6 @@
 
     .butns {
         height: 18px;
-        width: 52%;
     }
 
     h1.cell {
@@ -157,14 +141,13 @@
 
     .cardss {
         border: 1px solid black;
-        padding: 0%;
         width: 100%;
+        padding: 0%;
         height: auto;
     }
 
     .letter {
-        font-size: 20px;
-        height: 150px;
+        margin: 5%;
     }
 
     footer {
@@ -198,6 +181,14 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .letter p {
+        flex: 0;
+    }
+
+    .butns {
+        width: 55%;
     }
 
     .find {
