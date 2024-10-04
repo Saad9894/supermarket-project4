@@ -4,10 +4,10 @@
         column-gap: 8%;
     }
 
-
     .cardss {
         height: auto;
     }
+
     .butns {
         width: 55%;
     }
@@ -30,7 +30,6 @@
         grid-template-columns: 175px 175px 175px;
         height: auto;
         gap: 1%;
-        width: 84%;
         column-gap: 10%;
     }
 
@@ -55,7 +54,6 @@
     .one {
         grid-template-columns: 165px 171px;
         height: auto;
-        width: 70%;
         margin: auto;
         gap: 1%;
         column-gap: 15%;
@@ -112,7 +110,6 @@
     }
 
     .one {
-        width: 72%;
         grid-template-columns: 214px;
         justify-content: center;
         gap: 1%;

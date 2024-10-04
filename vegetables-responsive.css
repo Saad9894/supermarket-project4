@@ -4,10 +4,6 @@
         column-gap: 8%;
     }
 
-    .letter {
-        /* height: 19vw; */
-    }
-
     .cardss {
         height: auto;
     }
@@ -35,16 +31,11 @@
         grid-template-columns: 175px 175px 175px;
         height: auto;
         gap: 1%;
-        width: 84%;
         column-gap: 10%;
     }
 
     h1.cell {
         margin: 3%;
-    }
-
-    .letter {
-        /* height: 21vw; */
     }
 
     .cardss {
@@ -60,7 +51,6 @@
     .one {
         grid-template-columns: 165px 171px;
         height: auto;
-        width: 70%;
         margin: auto;
         gap: 1%;
         column-gap: 15%;
@@ -72,10 +62,6 @@
 
     .cardss {
         height:auto;
-    }
-
-    .letter {
-        /* height: 27vw; */
     }
 
     .button {
@@ -117,7 +103,6 @@
     }
 
     .one {
-        width: 72%;
         grid-template-columns: 214px;
         justify-content: center;
         gap: 1%;
@@ -153,8 +138,6 @@
     }
 
     .letter {
-        /* font-size: 15px; */
-        /* height: 150px; */
         margin: 5%;
     }
 
