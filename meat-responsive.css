@@ -27,8 +27,7 @@
 @media only screen and (min-width:769px) and (max-width:991px) {
     .one {
         grid-template-columns: 175px 175px 175px;
-        height: auto;
-        gap: 1%;
+        row-gap: 6%;
         column-gap: 10%;
     }
 
@@ -136,10 +135,7 @@
     }
 
     .cardss {
-        border: 1px solid black;
-        width: 100%;
-        padding: 0%;
-        height: auto;
+        padding: 10% 2%;
     }
 
     .letter {

@@ -17,7 +17,7 @@
     }
 
     footer {
-        transform: translate(0px, 7%);
+        transform: translate(0px, 8%);
     }
 
     .card-button {
@@ -28,8 +28,7 @@
 @media only screen and (min-width:769px) and (max-width:991px) {
     .one {
         grid-template-columns: 175px 175px 175px;
-        height: auto;
-        gap: 1%;
+        row-gap: 8%;
         column-gap: 10%;
     }
 
@@ -52,10 +51,8 @@
 
 @media only screen and (min-width:576px) and (max-width:768px) {
     .one {
-        grid-template-columns: 165px 171px;
-        height: auto;
-        margin: auto;
-        gap: 1%;
+        grid-template-columns: 170px 170px;
+        row-gap: 2%;
         column-gap: 15%;
     }
 
@@ -137,10 +134,7 @@
     }
 
     .cardss {
-        border: 1px solid black;
-        width: 100%;
-        padding: 0%;
-        height: auto;
+        padding: 8% 2%;
     }
 
     .letter {

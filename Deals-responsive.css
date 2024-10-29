@@ -49,23 +49,17 @@
 
 @media only screen and (min-width:576px) and (max-width:768px) {
     .one {
-        grid-template-columns:200px 200px;
-        height: auto;
-        margin: auto;
-        gap: 1%;
-        column-gap: 15%;
-    }
-
-    .cell {
-        /* height: 14vw; */
+        /* grid-template-columns: 150px 150px 150px;
+        row-gap: 12px;
+        column-gap: 41px; */
+        grid-template-columns: 160px 160px;
+        row-gap: 22px;
+        column-gap: 10%;
+        margin: 25px 0;
     }
 
     .cardss {
         height: auto;
-    }
-
-    .letter {
-        height: 27vw;
     }
 
     .button {
@@ -81,7 +75,7 @@
     }
 
     footer {
-        transform: translate(0px, 48%);
+        transform: translate(0px, 12%);
     }
 
     form input[type="text"] {
@@ -99,88 +93,83 @@
     }
 }
 
-    @media only screen and (min-width:300px) and (max-width:575px) {
+@media only screen and (min-width:300px) and (max-width:575px) {
 
-        .visit {
-            grid-template-columns: 190px;
-            justify-content: center;
-        }
-
-        .one {
-            grid-template-columns: 214px;
-            justify-content: center;
-            gap: 1%;
-        }
-
-
-        .butns {
-            height: 18px;
-        }
-
-        h1.cell {
-            font-size: 37px;
-            height: 89px;
-        }
-
-        .payment {
-            height: auto;
-        }
-
-        .nav3 {
-            padding: 17px 4px;
-        }
-
-        .visa {
-            flex-wrap: wrap;
-        }
-
-        .cardss {
-            border: 1px solid black;
-            width: 100%;
-            height: auto;
-            padding: 0%;
-        }
-
-        footer {
-            transform: translate(0px, 100%);
-        }
-
-        .nav1 {
-            display: none;
-        }
-
-        .icon {
-            display: none;
-        }
-
-        .search {
-            font-size: 25px;
-        }
-
-        form input[type="text"] {
-            height: 5vw;
-        }
-
-        i.fa-solid.fa-magnifying-glass {
-            left: 27px;
-
-        }
-
-        .nav2 {
-            justify-content: center;
-            height: 81px;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-
-        .find {
-            height: 31px;
-            width: 83%;
-            padding-left: 39px;
-        }
-
-        .letter p {
-            flex: 0;
-        }
+    .visit {
+        grid-template-columns: 190px;
+        justify-content: center;
     }
+
+    .one {
+        grid-template-columns: 214px;
+        justify-content: center;
+        row-gap: 36px;
+    }
+
+    .butns {
+        height: 18px;
+    }
+
+    h1.cell {
+        font-size: 37px;
+        height: 89px;
+    }
+
+    .payment {
+        height: auto;
+    }
+
+    .nav3 {
+        padding: 17px 4px;
+    }
+
+    .visa {
+        flex-wrap: wrap;
+    }
+
+    .cardss {
+        padding: 8% 4%;
+    }
+
+    footer {
+        transform: translate(0px, 6%);
+    }
+
+    .nav1 {
+        display: none;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .search {
+        font-size: 25px;
+    }
+
+    form input[type="text"] {
+        height: 5vw;
+    }
+
+    i.fa-solid.fa-magnifying-glass {
+        left: 27px;
+    }
+
+    .nav2 {
+        justify-content: center;
+        height: 81px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .find {
+        height: 31px;
+        width: 83%;
+        padding-left: 39px;
+    }
+
+    .letter p {
+        flex: 0;
+    }
+}
