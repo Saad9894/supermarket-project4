@@ -143,7 +143,7 @@ a.clover {
     border: 2px solid #c3c6ce;
     transition: 0.5s ease-out;
     overflow: visible;
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
 }
@@ -180,9 +180,10 @@ a.clover {
 
 .one {
     display: grid;
-    gap: 3%;
     margin: 2%;
-    column-gap: 4%;
+    row-gap: 4%;
+    /* gap: 2%; */
+    column-gap: 5%;
     justify-content: center;
     grid-template-columns: 200px 200px 200px 200px 200px;
 }

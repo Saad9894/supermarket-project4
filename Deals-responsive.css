@@ -48,18 +48,17 @@
 }
 
 @media only screen and (min-width:576px) and (max-width:768px) {
-    .one {
-        /* grid-template-columns: 150px 150px 150px;
-        row-gap: 12px;
-        column-gap: 41px; */
-        grid-template-columns: 160px 160px;
-        row-gap: 22px;
-        column-gap: 10%;
-        margin: 25px 0;
-    }
-
     .cardss {
         height: auto;
+        width: 85%;
+    }
+
+    .one {
+        grid-template-columns: 1fr 1fr 1fr;
+        height: auto;
+        margin: 24px 32px;
+        gap: 45px;
+        column-gap: 6%;
     }
 
     .button {

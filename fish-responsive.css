@@ -51,9 +51,11 @@
 
 @media only screen and (min-width:576px) and (max-width:768px) {
     .one {
-        grid-template-columns: 170px 170px;
-        row-gap: 2%;
-        column-gap: 15%;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: auto;
+        margin: 24px 32px;
+        gap: 45px;
+        column-gap: 6%;
     }
 
     .cell {
@@ -62,6 +64,7 @@
 
     .cardss {
         height: auto;
+        width: 85%;
     }
 
     .button {
